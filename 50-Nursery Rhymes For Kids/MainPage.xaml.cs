@@ -22,10 +22,20 @@ namespace _50_Nursery_Rhymes_For_Kids
     /// </summary>
     public sealed partial class MainPage : Page
     {
-       
+        private object playlistView;
+
+        public int Assets { get; private set; }
 
         private void abcd_Click(object sender, RoutedEventArgs e)
         {
+            var song6 = new SongModel();
+            song6.Title = "song 6";
+            song6.MediaUri = new Uri("Assets / song / abcdefg.mp3");
+            playlistView.songs.Add(song6);
+
+
+
+
             
 
         }

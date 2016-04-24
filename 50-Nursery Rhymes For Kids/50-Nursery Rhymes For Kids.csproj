@@ -102,6 +102,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SongModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -116,6 +117,12 @@
     <Content Include="Assets\main\dingdongbell.png" />
     <Content Include="Assets\main\earlytobed.png" />
     <Content Include="Assets\main\rusleeping.png" />
+    <Content Include="Assets\song\abcdefg.mp3" />
+    <Content Include="Assets\song\areyousleeping.mp3" />
+    <Content Include="Assets\song\baabaablacksheep.mp3" />
+    <Content Include="Assets\song\chubbycheeks.mp3" />
+    <Content Include="Assets\song\dingdongbell.mp3" />
+    <Content Include="Assets\song\earlytobed.mp3" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

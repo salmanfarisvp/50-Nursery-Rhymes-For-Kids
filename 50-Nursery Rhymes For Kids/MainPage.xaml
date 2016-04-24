@@ -13,7 +13,52 @@
             <TextBlock FontSize="30" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Center"  Text="Nursery Rhymes"></TextBlock>
             
         </Border>
-       
+            <StackPanel Orientation="Horizontal">
+                <Button Click="abcd_Click" x:Name="abcd" Margin="30,30,0,0" Height="130" Width="130"  >
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/main/abcd.png"/>
+                    </Button.Background>
+                    
+                </Button>
+                <StackPanel Orientation="Vertical">
+                    <Button Click="blacksheep_Click" x:Name="blacksheep" Margin="55,30,0,0" Height="130" Width="130"  >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Assets/main/blacksheep.png"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Click="chuby_Click" x:Name="chuby" Margin="30,30,0,0" Height="130" Width="130"  >
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/main/chubycheks.png"/>
+                    </Button.Background>
+                </Button>
+                <StackPanel Orientation="Vertical">
+                    <Button Click="dingdong_Click" x:Name="dingdong" Margin="55,30,0,0" Height="130" Width="130"  >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Assets/main/dingdongbell.png"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Click="earlytobed_Click" x:Name="earlytobed" Margin="30,30,0,0" Height="130" Width="130"  >
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/main/earlytobed.png"/>
+                    </Button.Background>
+                </Button>
+                <StackPanel Orientation="Vertical">
+                    <Button Click="rusleeping_Click" x:Name="rusleeping" Margin="55,30,0,0" Height="130" Width="130"  >
+                        <Button.Background>
+                            <ImageBrush ImageSource="Assets/main/rusleeping.png"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+
+
+
 
 
 
