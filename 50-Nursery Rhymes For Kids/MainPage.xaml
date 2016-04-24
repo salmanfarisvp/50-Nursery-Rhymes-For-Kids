@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="_50_Nursery_Rhymes_For_Kids.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_50_Nursery_Rhymes_For_Kids"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Pink">
+        <StackPanel Margin="0,0,0,-191">
+        <Border  Width="360" BorderBrush="Violet" BorderThickness="2dp" Background="Green" VerticalAlignment="Top" Height="50">
+            <TextBlock FontSize="30" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Center"  Text="Nursery Rhymes"></TextBlock>
+            
+        </Border>
+       
+
+
+
+        </StackPanel>
+
+
+    </Grid>
+</Page>
